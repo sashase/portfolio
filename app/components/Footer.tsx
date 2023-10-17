@@ -1,3 +1,5 @@
 export default function Footer() {
-  return <footer>© 2023 Oleksandr Semenchuk</footer>
+  return (
+    <footer className="text-azurish mx-auto">© 2023 Oleksandr Semenchuk</footer>
+  )
 }

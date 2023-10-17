@@ -7,7 +7,6 @@ import Footer from "./components/Footer"
 const gabarito = Gabarito({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Me | Oleksandr Semenchuk",
   description: "Oleksandr - Full Stack Developer"
 }
 
@@ -19,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`min-h-screen w-4/5 md:w-3/4 m-auto py-6 flex flex-col items-center justify-between ${gabarito.className}`}>
+        className={`bg-background min-h-screen w-5/6 md:w-7/12 m-auto py-7 flex flex-col justify-between ${gabarito.className}`}>
         <Nav />
         {children}
         <Footer />
