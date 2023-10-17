@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Contact me | Oleksandr Semenchuk"
+  title: "Get in touch | Oleksandr Semenchuk"
 }
 
-export default function Contact() {
-  return <h1>contact</h1>
+export default function GetInTouch() {
+  return <h1>Get in touch</h1>
 }

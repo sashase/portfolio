@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        gabarito: "Gabarito",
+      },
       colors: {
         primary: "#769FCD",
         background: "#F7FBFC",
