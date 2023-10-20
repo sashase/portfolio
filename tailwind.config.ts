@@ -21,8 +21,8 @@ const config: Config = {
         }
       },
       animation: {
-        "float-in": "floatIn 0.3s ease-in-out forwards",
-        "float-in-delay-1": "floatIn 0.3s ease-in-out 0.5s forwards"
+        "float-in": "floatIn 0.4s ease-in-out forwards",
+        "float-in-delay-1": "floatIn 0.4s ease-in-out 0.5s forwards"
       },
       fontFamily: {
         gabarito: "Gabarito",

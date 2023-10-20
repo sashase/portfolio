@@ -29,7 +29,7 @@ export default function Footer() {
             CV
           </Link>
           <Link
-            href="mailto:contactme@semenchuk.cc"
+            href="mailto:hello@semenchuk.cc"
             className="hover:text-secondary transition-all">
             E-Mail
           </Link>

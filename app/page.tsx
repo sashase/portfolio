@@ -7,8 +7,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 my-12">
-      <div className="relative">
+    <main className="grid grid-cols-1 md:grid-cols-2 my-12">
+      <div>
         <div className="flex flex-col gap-4 m-auto max-w-sm animate-float-in">
           <h3 className="font-bold text-[2.5rem] leading-[2.75rem] md:text-5xl text-primary">
             Hi there!
@@ -40,6 +40,6 @@ export default function Home() {
         className="bg-azurish text-primary py-3 px-7 font-medium text-2xl rounded-full self-center w-fit mx-auto mt-10 transition-all animate-float-in-delay-1 opacity-0">
         Get in touch
       </Link>
-    </div>
+    </main>
   )
 }
