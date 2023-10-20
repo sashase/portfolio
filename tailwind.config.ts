@@ -28,10 +28,11 @@ const config: Config = {
         gabarito: "Gabarito",
       },
       colors: {
-        primary: "#769FCD",
-        background: "#F7FBFC",
+        primary: "#366396",
+        secondary: "#769FCD",
+        beau: "#B9D7EA",
         azurish: "#D6E6F2",
-        beau: "#B9D7EA"
+        background: "#F7FBFC"
       }
     },
   },
