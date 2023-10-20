@@ -22,6 +22,9 @@ model-viewer {
   overflow: hidden;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  animation: floatIn 0.5s ease-in-out forwards;
+  -moz-animation: floatIn 0.5s ease-in-out forwards;
+  -webkit-animation: floatIn 0.5s ease-in-out forwards;
 }
 
 model-viewer::-webkit-scrollbar {

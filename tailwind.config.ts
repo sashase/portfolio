@@ -8,6 +8,22 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        floatIn: {
+          "0%": {
+            opacity: "0.1",
+            transform: "translateY(-3%)"
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)"
+          },
+        }
+      },
+      animation: {
+        "float-in": "floatIn 0.3s ease-in-out forwards",
+        "float-in-delay-1": "floatIn 0.3s ease-in-out 0.5s forwards"
+      },
       fontFamily: {
         gabarito: "Gabarito",
       },
