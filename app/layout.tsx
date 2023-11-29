@@ -29,7 +29,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-background min-h-screen w-5/6 md:w-2/3 m-auto pt-10 pb-7 flex flex-col justify-between font-gabarito">
+      <body className="bg-background dark:bg-backgroundDark min-h-screen w-5/6 md:w-2/3 m-auto pt-10 pb-7 flex flex-col justify-between font-gabarito">
         <Nav />
         {children}
         <Footer />

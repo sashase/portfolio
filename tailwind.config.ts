@@ -30,9 +30,14 @@ const config: Config = {
       colors: {
         primary: "#366396",
         secondary: "#769FCD",
-        beau: "#B9D7EA",
-        azurish: "#D6E6F2",
-        background: "#F7FBFC"
+        surface: "#D6E6F2",
+        background: "#F7FBFC",
+
+        primaryDark: "#c2cbd6",
+        secondaryDark: "#899fb8",
+        surfacePrimaryDark: "#081821",
+        surfaceSecondaryDark: "#040C10",
+        backgroundDark: "#010304"
       }
     },
   },

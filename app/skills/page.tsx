@@ -7,11 +7,11 @@ export const metadata: Metadata = {
 export default function Skills() {
   return (
     <main className="flex flex-col gap-10 md:gap-20 md:w-4/5 mx-auto my-16 md:my-32">
-      <span className="flex flex-col gap-3 font-medium text-2xl md:text-4xl text-primary text-center animate-float-in">
+      <span className="flex flex-col gap-3 font-medium text-2xl md:text-4xl text-primary dark:text-primaryDark text-left animate-float-in">
         I believe in following industry best practices and staying updated with
         the latest trends and technologies.
       </span>
-      <div className="flex flex-col gap-5 text-xl text-secondary ">
+      <div className="flex flex-col gap-5 text-xl text-secondary dark:text-secondaryDark">
         <span className="animate-float-in">
           I'm most at ease with the following tools, and technologies:
         </span>

@@ -10,23 +10,22 @@ export default function Nav() {
     <nav className="md:w-min flex justify-between font-medium text-xl md:text-2xl mx-auto gap-5 md:gap-16 animate-float-in relative">
       <Link
         href="/skills"
-        className={`transition-all text-primary py-1 px-5 rounded-full z-10 ${
-          pathname === "/skills" && "bg-azurish"
+        className={`transition-all text-primary dark:text-primaryDark py-1 px-5 rounded-full z-10 ${
+          pathname === "/skills" && "bg-surface dark:bg-surfacePrimaryDark"
         }`}>
         Skills
       </Link>
       <Link
-        onClick={() => console.log("hgello")}
         href="/"
-        className={`transition-all text-primary py-1 px-5 rounded-full ${
-          pathname === "/" && "bg-azurish"
+        className={`transition-all text-primary dark:text-primaryDark py-1 px-5 rounded-full ${
+          pathname === "/" && "bg-surface dark:bg-surfacePrimaryDark"
         }`}>
         Me
       </Link>
       <Link
         href="/projects"
-        className={`transition-all text-primary py-1 px-5 rounded-full ${
-          pathname === "/projects" && "bg-azurish"
+        className={`transition-all text-primary dark:text-primaryDark py-1 px-5 rounded-full ${
+          pathname === "/projects" && "bg-surface dark:bg-surfacePrimaryDark"
         }`}>
         Projects
       </Link>
