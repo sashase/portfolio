@@ -35,8 +35,8 @@ const config: Config = {
 
         primaryDark: "#c2cbd6",
         secondaryDark: "#899fb8",
-        surfacePrimaryDark: "#081821",
-        surfaceSecondaryDark: "#040C10",
+        surfacePrimaryDark: "#22303F",
+        surfaceSecondaryDark: "#161D27",
         backgroundDark: "#010304"
       }
     },

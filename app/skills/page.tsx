@@ -6,7 +6,7 @@ export const metadata: Metadata = {
 
 export default function Skills() {
   return (
-    <main className="flex flex-col gap-10 md:gap-20 md:w-4/5 mx-auto my-16 md:my-32">
+    <main className="flex flex-col gap-10 md:gap-20 mx-auto">
       <span className="flex flex-col gap-3 font-medium text-2xl md:text-4xl text-primary dark:text-primaryDark text-left animate-float-in">
         I believe in following industry best practices and staying updated with
         the latest trends and technologies.
@@ -15,7 +15,7 @@ export default function Skills() {
         <span className="animate-float-in">
           I'm most at ease with the following tools, and technologies:
         </span>
-        <div className="grid grid-cols-3 md:grid-cols-6 gap-6 md:gap-12 p-5 md:p-10 items-center animate-float-in">
+        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 gap-6 md:gap-12 p-5 md:p-10 items-center animate-float-in">
           <img src="/svg/html.svg" alt="HTML" />
           <img src="/svg/css.svg" alt="CSS" />
           <img src="/svg/ts.svg" alt="TypeScript" />
@@ -42,7 +42,7 @@ export default function Skills() {
         <img
           src="/svg/git.svg"
           alt="Git"
-          className="w-2/3 md:w-2/6 my-6 mx-auto animate-float-in"
+          className="w-2/3 md:w-2/6 2xl:w-1/4 my-6 mx-auto animate-float-in"
         />
       </div>
     </main>

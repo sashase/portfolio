@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 my-12">
+    <main className="grid grid-cols-1 lg:grid-cols-2">
       <div>
-        <div className="flex flex-col gap-4 m-auto max-w-sm animate-float-in">
+        <div className="flex flex-col gap-4 m-auto animate-float-in">
           <h3 className="font-bold text-[2.5rem] leading-[2.75rem] md:text-5xl text-primary dark:text-primaryDark">
             Hi there!
             <br />
@@ -17,9 +17,9 @@ export default function Home() {
             <br />I build a software.
           </h3>
           <p className="text-base md:text-lg text-secondary dark:text-secondaryDark">
-            I'm a fullstack software developer based in Kyiv, passionate about
-            crafting digital solutions. I bring creative and functional concepts
-            to life. <br /> Let's build something amazing together!
+            I'm a software developer based in Schweinfurt. <br /> Passionate
+            about crafting digital solutions. I bring creative and functional
+            concepts to life. <br /> Let's build something amazing together!
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@ export default function Home() {
         <model-viewer
           src="/development-model.glb"
           shadow-intensity="1"
-          camera-orbit="120deg 75deg"
+          camera-orbit="120deg 75deg 90%"
           camera-controls
           disable-zoom
           auto-rotate

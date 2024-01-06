@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Footer() {
   return (
-    <footer className="text-secondary dark:text-secondaryDark flex items-end justify-between w-100 md:w-4/5 mx-0 md:mx-auto mt-5 md:mt-0 animate-float-in-delay-1 opacity-0">
+    <footer className="text-secondary dark:text-secondaryDark flex items-end justify-between mx-0 mt-16 md:mt-32 animate-float-in-delay-1 opacity-0">
       <Link
         href="https://github.com/sashase/portfolio"
         className="hover:text-secondary dark:hover:text-secondaryDark transition-all">

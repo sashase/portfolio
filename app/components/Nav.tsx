@@ -7,7 +7,7 @@ export default function Nav() {
   const pathname: string = usePathname()
 
   return (
-    <nav className="md:w-min flex justify-between font-medium text-xl md:text-2xl mx-auto gap-5 md:gap-16 animate-float-in relative">
+    <nav className="flex justify-between font-medium text-xl md:text-2xl mx-auto gap-5 md:gap-16 animate-float-in relative mb-16 md:mb-32">
       <Link
         href="/skills"
         className={`transition-all text-primary dark:text-primaryDark py-1 px-5 rounded-full z-10 ${
