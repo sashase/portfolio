@@ -31,10 +31,3 @@ model-viewer {
 model-viewer::-webkit-scrollbar {
   display: none;
 }
-
-@media (max-width: 768px) {
-  model-viewer {
-    height: 300px;
-    margin: 10px auto;
-  }
-}

@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import Link from "next/link"
+import ContactMe from "./components/ContactMe"
 
 export const metadata: Metadata = {
   title: "Me | Oleksandr Semenchuk"
@@ -33,13 +33,15 @@ export default function Home() {
           auto-rotate
           auto-rotate-delay="1500"
           interaction-prompt="none"
+          className="hidden lg:block"
+        />
+        <img
+          src="/development.webp"
+          alt="development"
+          className="block lg:hidden animate-float-in"
         />
       </div>
-      <Link
-        href="/contact"
-        className="bg-surface dark:bg-surfacePrimaryDark text-primary dark:text-primaryDark py-3 px-7 font-medium text-2xl rounded-full self-center w-fit mx-auto mt-10 transition-all animate-float-in-delay-1 opacity-0">
-        Get in touch
-      </Link>
+      <ContactMe />
     </main>
   )
 }

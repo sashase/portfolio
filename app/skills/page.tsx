@@ -15,7 +15,7 @@ export default function Skills() {
         <span className="animate-float-in">
           I'm most at ease with the following tools, and technologies:
         </span>
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-8 gap-6 md:gap-12 p-5 md:p-10 items-center animate-float-in">
+        <div className="grid grid-cols-3 sm:grid-cols-6 2xl:grid-cols-8 gap-6 md:gap-12 p-5 md:p-10 items-center animate-float-in">
           <img src="/svg/html.svg" alt="HTML" />
           <img src="/svg/css.svg" alt="CSS" />
           <img src="/svg/ts.svg" alt="TypeScript" />
@@ -42,7 +42,7 @@ export default function Skills() {
         <img
           src="/svg/git.svg"
           alt="Git"
-          className="w-2/3 md:w-2/6 2xl:w-1/4 my-6 mx-auto animate-float-in"
+          className="w-2/3 sm:w-2/6 2xl:w-1/4 my-6 mx-auto animate-float-in"
         />
       </div>
     </main>
