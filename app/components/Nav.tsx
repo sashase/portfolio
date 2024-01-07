@@ -23,11 +23,11 @@ export default function Nav() {
         Me
       </Link>
       <Link
-        href="/projects"
+        href="/work"
         className={`transition-all text-primary dark:text-primaryDark py-1 px-5 rounded-full ${
-          pathname === "/projects" && "bg-surface dark:bg-surfacePrimaryDark"
+          pathname === "/work" && "bg-surface dark:bg-surfacePrimaryDark"
         }`}>
-        Projects
+        Work
       </Link>
     </nav>
   )

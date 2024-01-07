@@ -7,43 +7,62 @@ export const metadata: Metadata = {
 export default function Skills() {
   return (
     <main className="flex flex-col gap-10 md:gap-20 mx-auto">
-      <span className="flex flex-col gap-3 font-medium text-2xl md:text-4xl text-primary dark:text-primaryDark text-left animate-float-in">
+      <h3 className="font-medium text-2xl md:text-4xl text-primary dark:text-primaryDark text-left animate-float-in">
         I believe in following industry best practices and staying updated with
         the latest trends and technologies.
-      </span>
-      <div className="flex flex-col gap-5 text-xl text-secondary dark:text-secondaryDark">
-        <span className="animate-float-in">
-          I'm most at ease with the following tools, and technologies:
-        </span>
-        <div className="grid grid-cols-3 sm:grid-cols-6 2xl:grid-cols-8 gap-6 md:gap-12 p-5 md:p-10 items-center animate-float-in">
-          <img src="/svg/html.svg" alt="HTML" />
-          <img src="/svg/css.svg" alt="CSS" />
-          <img src="/svg/ts.svg" alt="TypeScript" />
-          <img src="/svg/node.svg" alt="NodeJS" />
-          <img src="/svg/react.svg" alt="React.js" />
-          <img src="/svg/vue.svg" alt="Vue.js" />
-          <img src="/svg/nest.svg" alt="NestJS" />
-          <img src="/svg/postgres.svg" alt="PostgreSQL" />
-          <img src="/svg/mongo.svg" alt="MongoDB" />
-          <img src="/svg/jest.svg" alt="Jest" />
-          <img src="/svg/aws.svg" alt="AWS" />
-          <img src="/svg/linux.svg" alt="Linux" />
+      </h3>
+      <div className="flex flex-col gap-10 text-xl text-secondary dark:text-secondaryDark">
+        <div className="flex flex-col gap-2.5">
+          <p className="animate-float-in">
+            I'm most at ease with the following tools, and technologies:
+          </p>
+          <div className="grid grid-cols-3 animate-float-in">
+            <div className="flex flex-col gap-1">
+              <h5 className="text-xl font-medium text-primary dark:text-primaryDark">
+                Frontend:
+              </h5>
+              <ul className="text-base md:text-lg">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>TailwindCSS</li>
+                <li>MaterialUI</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h5 className="text-xl font-medium text-primary dark:text-primaryDark">
+                Backend:
+              </h5>
+              <ul className="text-base md:text-lg">
+                <li>Node.js</li>
+                <li>NestJS</li>
+                <li>Prisma</li>
+                <li>TypeORM</li>
+                <li>PostgreSQL</li>
+                <li>MongoDB</li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-1">
+              <h5 className="text-xl font-medium text-primary dark:text-primaryDark">
+                Core:
+              </h5>
+              <ul className="text-base md:text-lg">
+                <li>TypeScript</li>
+                <li>Jest</li>
+                <li>AWS</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-2 animate-float-in">
-          <span>
-            I recognize the critical importance of Git in enabling seamless
-            teamwork.
-          </span>
-          <span>
-            Git serves as the foundation for version control and collaborative
-            coding, guaranteeing a smooth and productive development workflow.
-          </span>
-        </div>
-        <img
-          src="/svg/git.svg"
-          alt="Git"
-          className="w-2/3 sm:w-2/6 2xl:w-1/4 my-6 mx-auto animate-float-in"
-        />
+        <p className="animate-float-in">
+          I'm good with GitHub for handling code and Jira for managing tasks in
+          software projects. I can set up repositories, manage branches, and
+          facilitate teamwork on GitHub. In Jira, I handle project setup, task
+          management, and team communication.
+        </p>
       </div>
     </main>
   )

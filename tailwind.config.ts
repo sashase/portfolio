@@ -29,7 +29,7 @@ const config: Config = {
       },
       colors: {
         primary: "#366396",
-        secondary: "#769FCD",
+        secondary: "#447CBB",
         success: "#369639",
         error: "#EF4444",
         surface: "#D6E6F2",

@@ -24,7 +24,7 @@ export default function Footer() {
             LinkedIn
           </Link>
           <Link
-            href="https://cv.djinni.co/2b/0b80d95959084a04e25a417ca5a56d/Oleksandr_Semenchuk.pdf"
+            href="/files/cv.pdf"
             className="hover:text-secondary dark:hover:text-secondaryDark transition-all">
             CV
           </Link>
