@@ -6,7 +6,8 @@ interface Props {
 
 export default function Modal(props: Props) {
   const popupRef = useRef<HTMLDivElement>(null)
-  const [message, setMessage] = useState<string | null>(null)
+  const [success, setSuccess] = useState<boolean>(false)
+  const [error, setError] = useState<boolean>(false)
   const [errors, setErrors] = useState<{ [key: string]: boolean }>({})
   const [loading, setLoading] = useState<boolean>(false)
 
@@ -58,8 +59,13 @@ export default function Modal(props: Props) {
     })
 
     setLoading(false)
-    if (response.status !== 200) return setMessage("Something went wrong.")
-    props.setIsModalOpen(false)
+
+    if (response.status !== 200) return setError(true)
+
+    setSuccess(true)
+    setTimeout(() => {
+      props.setIsModalOpen(false)
+    }, 1500)
   }
 
   useEffect(() => {
@@ -77,10 +83,10 @@ export default function Modal(props: Props) {
   }, [popupRef])
 
   return (
-    <div className="fixed inset-0 min-h-screen bg-black bg-opacity-75 flex items-center justify-center z-10">
+    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-10">
       <div
         ref={popupRef}
-        className="w-5/6 md:w-2/3 lg:w-1/2 bg-background dark:bg-surfaceSecondaryDark px-7 py-8 rounded-3xl flex flex-col gap-8 h-5/6  overflow-auto">
+        className="w-5/6 md:w-2/3 lg:w-1/2 max-h-[90%] bg-background dark:bg-surfaceSecondaryDark px-7 py-8 rounded-3xl flex flex-col gap-8 overflow-auto">
         <h5 className="text-primary dark:text-primaryDark text-4xl md:text-5xl">
           Contact me!
         </h5>
@@ -161,12 +167,18 @@ export default function Modal(props: Props) {
             disabled={loading}>
             {loading ? (
               <div className="h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]" />
+            ) : success ? (
+              <span className="text-success dark:text-successDark">
+                Success!
+              </span>
             ) : (
               "Submit!"
             )}
           </button>
-          {message && (
-            <p className="text-error dark:text-errorDark">{message}</p>
+          {error && (
+            <p className="text-error dark:text-errorDark">
+              Something went wrong.
+            </p>
           )}
         </form>
       </div>

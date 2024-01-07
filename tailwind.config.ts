@@ -30,12 +30,14 @@ const config: Config = {
       colors: {
         primary: "#366396",
         secondary: "#769FCD",
+        success: "#369639",
         error: "#EF4444",
         surface: "#D6E6F2",
         background: "#F7FBFC",
 
-        primaryDark: "#c2cbd6",
+        primaryDark: "#C2CBD6",
         secondaryDark: "#899fb8",
+        successDark: "#4AA14D",
         errorDark: "#DE5454",
         surfacePrimaryDark: "#22303F",
         surfaceSecondaryDark: "#161D27",
