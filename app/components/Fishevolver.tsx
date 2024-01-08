@@ -25,8 +25,8 @@ export default function Fishevolver() {
       </div>
       <div className="flex items-center gap-2 md:gap-4 flex-wrap">
         <p className="text-lg md:text-xl text-secondary dark:text-secondaryDark">
-          Technologies used: TypeScript, Vue.js, NestJS, Bootstrap, PostgreSQL,
-          OAuth 2.0, Stripe, Jest.
+          Technologies used: TypeScript, Vue.js, NestJS, Bootstrap, Pinia,
+          PostgreSQL, OAuth 2.0, Stripe, Jest.
         </p>
       </div>
     </div>

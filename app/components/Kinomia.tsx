@@ -38,13 +38,19 @@ export default function Kinomia() {
       </div>
       <div className="flex items-center gap-2 md:gap-4 flex-wrap">
         <p className="text-lg md:text-xl text-secondary dark:text-secondaryDark">
-          Technologies used: TypeScript, Vue.js, NestJS, Sass, PostgreSQL,
-          Redis, Docker, Jest.
+          Technologies used: TypeScript, Vue.js, NestJS, Sass, Pinia,
+          PostgreSQL, Redis, Docker, Jest.
         </p>
       </div>
       <Collapsible
         title="Preview"
-        images={["/kinomia/kinomia-movies.png", "/kinomia/kinomia-digest.png"]}
+        images={[
+          "/kinomia/kinomia-movies.png",
+          "/kinomia/kinomia-digest.png",
+          "/kinomia/kinomia-cinemas-list.png",
+          "/kinomia/kinomia-cinemas-map.png",
+          "/kinomia/kinomia-cinemas-showtimes.png"
+        ]}
       />
     </div>
   )
