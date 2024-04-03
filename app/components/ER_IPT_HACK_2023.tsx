@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Hackathon() {
+export default function ER_IPT_HACK_2023() {
   return (
     <div className="flex flex-col gap-3">
       <Link

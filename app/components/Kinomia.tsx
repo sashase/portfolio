@@ -7,7 +7,7 @@ export default function Kinomia() {
     <div className="flex flex-col gap-3">
       <h4 className="text-primary dark:text-primaryDark text-3xl">Kinomia</h4>
       <div className="flex flex-wrap gap-x-2 gap-y-0 items-center text-secondary dark:text-secondaryDark text-lg">
-        <p>Oct. 2023 - Present</p>
+        <p>Oct. 2023 - Jan. 2024</p>
         <div className="w-px h-5 rounded-sm bg-secondary dark:bg-secondaryDark opacity-50"></div>
         <p>Personal Project</p>
         <div className="w-px h-5 rounded-sm bg-secondary dark:bg-secondaryDark opacity-50"></div>

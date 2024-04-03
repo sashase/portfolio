@@ -5,6 +5,7 @@ import { useState } from "react"
 interface Props {
   title: string
   images: string[]
+  cols?: number
 }
 
 export default function Collapsible(props: Props) {
@@ -37,7 +38,10 @@ export default function Collapsible(props: Props) {
         )}
       </div>
       {isOpen && (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 animate-float-in">
+        <div
+          className={`grid grid-cols-1 lg:grid-cols-${
+            props.cols ?? 2
+          } gap-2 animate-float-in`}>
           {props.images.map((image) => {
             return (
               <img
